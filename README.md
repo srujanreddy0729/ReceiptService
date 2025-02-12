@@ -1,4 +1,4 @@
-#Receipt Processor
+# Receipt Processor
 Build a webservice that fulfils the documented API. The API is described below. A formal definition is provided in the api.yml file. We will use the described API to test your solution.
 
 Provide any instructions required to run your application.
