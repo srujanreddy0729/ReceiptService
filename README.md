@@ -28,17 +28,23 @@ First, package the application using Maven:
 
 --mvn clean package
 
-This will generate a JAR file inside the target/ directory, e.g., receipt-service.jar.
+This will generate a JAR file inside the target/ directory, e.g., receiptservie.jar.
 
-Step 2: Build the Docker Image
+Step 2: With the help of jar file we will create the dockerfile.
 
-**docker build -t receipt-service .**
+<img width="1396" alt="Screenshot 2025-02-12 at 3 42 57 PM" src="https://github.com/user-attachments/assets/a7abd6e8-b600-4470-9881-51dcaebba4ea" />
 
-This command builds the Docker image and tags it as receipt-service.
+
+Step 3: Build the Docker Image from the dockerfile
+
+--docker build -t myapp:v2 .
+
+This command builds the Docker image and tags it as myapp.
 
 Step 3: Run the Docker Container
 
-**docker run -p 8080:8080 receipt-service**
+--docker run -p 8080:8080 myapp:v2
+
 This runs the container, making the application accessible on localhost:8080.
 
 
