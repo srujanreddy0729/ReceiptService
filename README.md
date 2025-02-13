@@ -12,6 +12,7 @@ This web service will be implemented in Java using Spring Boot to fulfill the AP
 -Uses a ConcurrentHashMap to store receipt data and associated points, ensuring thread safety.
 
 **3.Point Calculation Rules:**
+
 -Implements all point calculation rules, including checking alphanumeric characters in the retailer name, total amount-based bonuses, and item description-based bonuses.
 
 **4.Docker Support:**
