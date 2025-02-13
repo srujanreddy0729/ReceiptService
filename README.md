@@ -7,4 +7,7 @@
    - **In-Memory Storage**: The service will use an in-memory data structure (e.g., ConcurrentHashMap) to store receipts and their corresponding   points.
    - **Point Calculation Rules**: Implements all the specified rules to calculate points.
    - **Docker Support**: A Dockerfile will be provided to containerize the application for easy execution.
+
+
+For more details, you can refer this github repository https://github.com/fetch-rewards/receipt-processor-challenge?tab=readme-ov-file#examples
      
