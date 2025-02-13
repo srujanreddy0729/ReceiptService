@@ -26,7 +26,7 @@ The application will be containerized using Docker, allowing for easy deployment
 Step 1: Build the Spring Boot Application
 First, package the application using Maven:
 
-**mvn clean package**
+--mvn clean package
 
 This will generate a JAR file inside the target/ directory, e.g., receipt-service.jar.
 
